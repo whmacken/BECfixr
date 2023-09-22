@@ -1,12 +1,11 @@
 Package: BECfixr
-Title: What the Package Does (One Line, Title Case)
+Title: Ecosystem Plot Data Check, Fix, and Report
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Will", "MacKenzie", "will.mackenzie@gov.bc.ca", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: A subpackage of BECr that checks and fixes ecosystem plot data with updates to species taxonomy, calculation of missing data, and checks of codes that do not match standards in LMH25
+License: Apache License (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
